@@ -37,8 +37,8 @@ ___
 #### Technical Skills
 
 \begin{tabular}{l | l}
-	Programming Languages & C++, Java, Python, HTML, JavaScript\\
-	Operating Systems & Windows, Arch Linux\\
+	Programming Languages & C++, Java, Python, Bash, HTML, JavaScript\\
+	Operating Systems & Windows, Linux (Arch and Ubuntu)\\
 	Tools & Maven, Git, SVN, MongoDB\\
 	Frameworks & OpenCV, Keras, Mule ESB, Spring, Jersey\\
 	Software & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
@@ -55,7 +55,7 @@ ___
 
 \begin{tabularx}{\textwidth}{l X}
 	\textbf{Penn Mutual Life Insurance} & \hfill Horsham, PA\\
-	Programmer & \hfill September to March 2018
+	Software Engineer & \hfill September to March 2018
 \end{tabularx}
 
 \begin{list}{\quad}{}
@@ -87,6 +87,7 @@ March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel Un
 #### Activities
 
 \begin{tabularx}{\textwidth}{l | X}
+	2018 & Participant, Philly Codefest \hfill Drexel University, Philadelphia, PA\\
 	2017 & Volunteer, GEAR UP \hfill West Philadelphia High School, Philadelphia, PA\\
 	2016 to 2017 & Pep Band \hfill Drexel University, Philadelphia, PA
 \end{tabularx}
