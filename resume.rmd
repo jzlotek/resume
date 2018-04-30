@@ -46,9 +46,10 @@ ___
 
 #### Relevant Coursework
 
-\begin{tabularx}{\textwidth}{lll}
+\begin{tabularx}{\textwidth}{ccc}
 	Computer Programming I, II & Mathmatical Foundations of Computer Science & Multivariate Calculus\\
-	Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra
+	Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
+	& Scientific Data Analysis &
 \end{tabularx}
 
 #### Related Experience
