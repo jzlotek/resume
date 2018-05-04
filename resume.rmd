@@ -18,20 +18,20 @@ header-includes: \usepackage{tabularx, hyperref}
 
 ___
 
-####  Honors and Awards
-
-\begin{tabularx}{\textwidth}{l | l X}
-	2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia PA\\
-	2016 & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown PA\\
-	2014 & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown PA\\
-\end{tabularx}
-
 #### Education
 
 \begin{tabularx}{\textwidth}{l X}
 	Drexel University & \hfill Philadelphia, PA\\
 	Bachelor and Master of Science in Computer Science & \hfill Anticipated Graduation: June 2021\\
 	Concentration in Computer Security, Minor in Mathemetics & \hfill GPA: 3.76
+\end{tabularx}
+
+####  Honors and Awards
+
+\begin{tabularx}{\textwidth}{l | l X}
+	2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia PA\\
+	2016 & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown PA\\
+	2014 & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown PA\\
 \end{tabularx}
 
 #### Technical Skills
