@@ -64,6 +64,8 @@ ___
 	\item Worked with machine learning libraries to parse information from hand written documents
 \end{list}
 
+&nbsp;
+
 \begin{tabularx}{\textwidth}{l X}
 	\textbf{Buckingham Pediatrics} & \hfill Buckingham, PA\\
 	Technology Consultant & \hfill February 2016 to present
