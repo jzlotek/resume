@@ -1,19 +1,22 @@
 ---
 author:  John Zlotek
-output: pdf_document
+output:
+	pdf_document:
+		keep_tex: true
 geometry: margin=0.5in
 fontsize: 10pt
 urlcolor: blue
 linkcolor: blue
-header-includes: \usepackage{tabularx, hyperref, fontawesome, tabulary}
+header-includes: \usepackage{tabularx, hyperref, fontawesome, tabulary, color}
 ---
+\pagenumbering{gobble}
 
 # John Zlotek
 
 \begin{center}
 	\begin{tabularx}{\textwidth}{X X}
-		\faHome: 4486 June Meadow Dr, Doylestown, PA 18902 \hfill&\hfill  \faEnvelope:  \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu} \\
-		\faPhone:  215-527-0305 \hfill&\hfill \faGithub:  \href{https://www.github.com/jzlotek}{github.com/jzlotek}
+		\textcolor{Blue}{\faHome}: 4486 June Meadow Dr, Doylestown, PA 18902 \hfill&\hfill  \textcolor{Blue}{\faEnvelope}:  \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu } \\
+		\textcolor{Blue}{\faPhone}:  215-527-0305 \hfill&\hfill \textcolor{Blue}{\faGithub}:  \href{https://www.github.com/jzlotek}{github.com/jzlotek}
 	\end{tabularx}
 \end{center}
 
@@ -45,16 +48,6 @@ ___
 	Software 	      & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
 \end{tabular}
 
-#### Relevant Coursework
-\begin{center}
-	\begin{tabularx}{\textwidth}{ccc}
-		Computer Programming I, II 	& Mathmatical Foundations of Computer Science & Multivariate Calculus\\
-		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
-	\end{tabularx}
-	\begin{tabulary}{\textwidth}{CC}
-	 	Calculus I, II, III & Scientific Data Analysis \\
-	\end{tabulary}
-\end{center}
 
 #### Related Experience
 
@@ -80,6 +73,16 @@ ___
 	\item Update and maintain company website with accurate information and documents
 \end{list}
 
+#### Relevant Coursework
+\begin{center}
+	\begin{tabularx}{\textwidth}{ccc}
+		Computer Programming I, II 	& Mathmatical Foundations of Computer Science & Multivariate Calculus\\
+		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
+	\end{tabularx}
+	\begin{tabulary}{\textwidth}{CC}
+	 	Calculus I, II, III & Scientific Data Analysis \\
+	\end{tabulary}
+\end{center}
 #### Teaching Assistant
 
 \begin{tabularx}{\textwidth}{r | l X}
