@@ -5,15 +5,16 @@ geometry: margin=0.5in
 fontsize: 10pt
 urlcolor: blue
 linkcolor: blue
-header-includes: \usepackage{tabularx, hyperref}
+header-includes: \usepackage{tabularx, hyperref, fontawesome, tabulary}
 ---
 
 # John Zlotek
 
 \begin{center}
-	\begin{tabular}{c c c}
-		\href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu} & 215-527-0305 & \href{https://www.github.com/jzlotek}{github.com/jzlotek}
-	\end{tabular}
+	\begin{tabularx}{\textwidth}{X X}
+		\faHome: 4486 June Meadow Dr, Doylestown, PA 18902 \hfill&\hfill  \faEnvelope:  \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu} \\
+		\faPhone:  215-527-0305 \hfill&\hfill \faGithub:  \href{https://www.github.com/jzlotek}{github.com/jzlotek}
+	\end{tabularx}
 \end{center}
 
 ___
@@ -21,8 +22,8 @@ ___
 #### Education
 
 \begin{tabularx}{\textwidth}{l X}
-	Drexel University & \hfill Philadelphia, PA\\
-	Bachelor and Master of Science in Computer Science & \hfill Anticipated Graduation: June 2021\\
+	Drexel University 				 	 & \hfill Philadelphia, PA\\
+	Bachelor and Master of Science in Computer Science 	 & \hfill Anticipated Graduation: June 2021\\
 	Concentration in Computer Security, Minor in Mathemetics & \hfill GPA: 3.76
 \end{tabularx}
 
@@ -30,33 +31,36 @@ ___
 
 \begin{tabularx}{\textwidth}{l | l X}
 	2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia PA\\
-	2016 & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown PA\\
-	2014 & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown PA\\
+	2016 	     & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown PA\\
+	2014 	     & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown PA\\
 \end{tabularx}
 
 #### Technical Skills
 
 \begin{tabular}{l | l}
 	Programming Languages & C++, Java, Python, Bash, HTML, JavaScript\\
-	Operating Systems & Windows, Linux (Arch and Ubuntu)\\
-	Tools & Maven, Git, SVN, MongoDB\\
-	Frameworks & OpenCV, Keras, Mule ESB, Spring, Jersey\\
-	Software & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
+	Operating Systems     & Windows, Linux (Arch and Ubuntu)\\
+	Tools 		      & Maven, Git, SVN, MongoDB\\
+	Frameworks 	      & OpenCV, Keras, Mule ESB, Spring, Jersey\\
+	Software 	      & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
 \end{tabular}
 
 #### Relevant Coursework
-
-\begin{tabularx}{\textwidth}{ccc}
-	Computer Programming I, II & Mathmatical Foundations of Computer Science & Multivariate Calculus\\
-	Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
-	& Scientific Data Analysis &
-\end{tabularx}
+\begin{center}
+	\begin{tabularx}{\textwidth}{ccc}
+		Computer Programming I, II 	& Mathmatical Foundations of Computer Science & Multivariate Calculus\\
+		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
+	\end{tabularx}
+	\begin{tabulary}{\textwidth}{CC}
+	 	Calculus I, II, III & Scientific Data Analysis \\
+	\end{tabulary}
+\end{center}
 
 #### Related Experience
 
 \begin{tabularx}{\textwidth}{l X}
 	\textbf{Penn Mutual Life Insurance} & \hfill Horsham, PA\\
-	Software Engineer & \hfill September to March 2018
+	Software Engineer 		    & \hfill September 2017 to March 2018
 \end{tabularx}
 
 \begin{list}{\quad}{}
@@ -68,7 +72,7 @@ ___
 
 \begin{tabularx}{\textwidth}{l X}
 	\textbf{Buckingham Pediatrics} & \hfill Buckingham, PA\\
-	Technology Consultant & \hfill February 2016 to present
+	Technology Consultant 	       & \hfill February 2016 to present
 \end{tabularx}
 
 \begin{list}{\quad}{}
@@ -80,17 +84,17 @@ ___
 
 \begin{tabularx}{\textwidth}{r | l X}
 March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel University, Philadelphia PA\\
-  &\textit{Worked under Dr. Matthew Burlick}
+  		   & \textit{Worked under Dr. Matthew Burlick}
 \end{tabularx}
-
-> Assisted with grading and monitoring students in multiple lab sections
-
-> Tutored students in Cyber Learning Center
+\begin{list}{\quad}
+	\item Assisted with grading and monitoring students in multiple lab sections
+	\item Tutored students in Cyber Learning Center
+\end{list}
 
 #### Activities
 
 \begin{tabularx}{\textwidth}{l | X}
-	2018 & Participant, Philly Codefest \hfill Drexel University, Philadelphia, PA\\
-	2017 & Volunteer, GEAR UP \hfill West Philadelphia High School, Philadelphia, PA\\
+	2018 	     & Participant, Philly Codefest \hfill Drexel University, Philadelphia, PA\\
+	2017 	     & Volunteer, GEAR UP \hfill West Philadelphia High School, Philadelphia, PA\\
 	2016 to 2017 & Pep Band \hfill Drexel University, Philadelphia, PA
 \end{tabularx}
