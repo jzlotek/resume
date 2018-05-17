@@ -1,5 +1,6 @@
 ---
 author:  John Zlotek
+name:	John Zlotek
 output:
 	pdf_document:
 		keep_tex: true
@@ -27,7 +28,7 @@ ___
 \begin{tabularx}{\textwidth}{l X}
 	Drexel University 				 	 & \hfill Philadelphia, PA\\
 	Bachelor and Master of Science in Computer Science 	 & \hfill Anticipated Graduation: June 2021\\
-	Concentration in Computer Security, Minor in Mathemetics & \hfill GPA: 3.76
+	Concentration in Computer Security, Minor in Mathematics & \hfill GPA: 3.76
 \end{tabularx}
 
 ####  Honors and Awards
@@ -53,12 +54,12 @@ ___
 
 \begin{tabularx}{\textwidth}{l X}
 	\textbf{Penn Mutual Life Insurance} & \hfill Horsham, PA\\
-	Software Engineer 		    & \hfill September 2017 to March 2018
+	Software Developer Co-op 	    & \hfill September 2017 to March 2018
 \end{tabularx}
 
 \begin{list}{\quad}{}
-	\item Developed REST API to integrate databases with other in-house services
-	\item Worked with machine learning libraries to parse information from hand written documents
+	\item Developed and maintained REST API to integrate databases with other in-house services and endpoints
+	\item Created machine learning application to parse information from hand written documents
 \end{list}
 
 &nbsp;
@@ -76,7 +77,7 @@ ___
 #### Relevant Coursework
 \begin{center}
 	\begin{tabularx}{\textwidth}{ccc}
-		Computer Programming I, II 	& Mathmatical Foundations of Computer Science & Multivariate Calculus\\
+		Computer Programming I, II 	& Mathematical Foundations of Computer Science & Multivariate Calculus\\
 		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
 	\end{tabularx}
 	\begin{tabulary}{\textwidth}{CC}
