@@ -17,7 +17,7 @@ header-includes: \usepackage{tabularx, hyperref, fontawesome, tabulary, color}
 \begin{center}
 	\begin{tabularx}{\textwidth}{X X}
 		\textcolor{Blue}{\faHome}: 4486 June Meadow Dr, Doylestown, PA 18902 \hfill&\hfill  \textcolor{Blue}{\faEnvelope}:  \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu } \\
-		\textcolor{Blue}{\faPhone}:  215-527-0305 \hfill&\hfill \textcolor{Blue}{\faGithub}:  \href{https://www.github.com/jzlotek}{github.com/jzlotek}
+		\textcolor{Blue}{\faPhone}:  215-527-0305 \hfill&\hfill \textcolor{Blue}{\faGithub}:  \href{https://www.github.com/jzlotek}{github.com/jzlotek} \\
 	\end{tabularx}
 \end{center}
 
@@ -28,7 +28,7 @@ ___
 \begin{tabularx}{\textwidth}{l X}
 	Drexel University 				 	 & \hfill Philadelphia, PA\\
 	Bachelor and Master of Science in Computer Science 	 & \hfill Anticipated Graduation: June 2021\\
-	Concentration in Computer Security, Minor in Mathematics & \hfill GPA: 3.80
+	Concentration in Computer Security, Minor in Mathematics & \hfill GPA: 3.80\\
 \end{tabularx}
 
 ####  Honors and Awards
@@ -44,7 +44,7 @@ ___
 \begin{tabular}{l | l}
 	Programming Languages & C++, Java, Python, Bash, HTML, JavaScript\\
 	Operating Systems     & Windows, Linux (Arch and Ubuntu)\\
-	Tools 		      & Maven, Git, SVN, MongoDB\\
+	Tools 		      & Git, SVN, Maven, MongoDB\\
 	Frameworks 	      & OpenCV, Keras, Mule ESB, Spring, Jersey\\
 	Software 	      & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
 \end{tabular}
@@ -77,8 +77,8 @@ ___
 #### Relevant Coursework
 \begin{center}
 	\begin{tabularx}{\textwidth}{ccc}
-		Computer Programming I, II 	& Mathematical Foundations of Computer Science & Multivariate Calculus\\
 		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
+		Computer Programming I, II 	& Web and Mobile Application Development & Multivariate Calculus\\
 		Data Structures & Calculus I, II, III & Scientific Data Analysis \\
 	\end{tabularx}
 \end{center}
