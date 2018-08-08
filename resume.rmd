@@ -1,3 +1,4 @@
+
 ---
 author:  John Zlotek
 name:	John Zlotek
@@ -34,18 +35,18 @@ ___
 ####  Honors and Awards
 
 \begin{tabularx}{\textwidth}{l | l X}
-	2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia PA\\
-	2016 	     & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown PA\\
-	2014 	     & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown PA\\
+	2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia, PA\\
+	2016 	     & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown, PA\\
+	2014 	     & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown, PA\\
 \end{tabularx}
 
 #### Technical Skills
 
 \begin{tabular}{l | l}
-	Programming Languages & C++, Java, Python, Bash, HTML, JavaScript\\
+	Programming Languages & Python, Java, C++, Bash, HTML, JavaScript\\
 	Operating Systems     & Windows, Linux (Arch and Ubuntu)\\
-	Tools 		      & Git, SVN, Maven, MongoDB\\
-	Frameworks 	      & OpenCV, Keras, Mule ESB, Spring, Jersey\\
+	Tools 		      & Git, SVN, Gulp, Maven, MongoDB\\
+	Frameworks 	      & Express, NodeJS, OpenCV, Keras, Spring, Jersey\\
 	Software 	      & Visual Studio, Sourcetree, Microsoft Office, JetBrains Suite
 \end{tabular}
 
@@ -85,7 +86,7 @@ ___
 #### Teaching Assistant
 
 \begin{tabularx}{\textwidth}{r | l X}
-March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel University, Philadelphia PA\\
+March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel University, Philadelphia, PA\\
   		   & \textit{Worked under Dr. Matthew Burlick}
 \end{tabularx}
 \begin{list}{\quad}
