@@ -29,7 +29,7 @@ ___
 \begin{tabularx}{\textwidth}{l X}
 	Drexel University 				 	 & \hfill Philadelphia, PA\\
 	Bachelor and Master of Science in Computer Science 	 & \hfill Anticipated Graduation: June 2021\\
-	Concentration in Computer Security, Minor in Mathematics & \hfill GPA: 3.80\\
+	Minor in Mathematics & \hfill GPA: 3.84\\
 \end{tabularx}
 
 ####  Honors and Awards
@@ -79,7 +79,7 @@ ___
 \begin{center}
 	\begin{tabularx}{\textwidth}{ccc}
 		Advanced Programming Techniques & Computing and Informatics Design I, II, III & Linear Algebra\\
-		Computer Programming I, II 	& Web and Mobile Application Development & Multivariate Calculus\\
+		Systems Programming & Web and Mobile Application Development & Multivariate Calculus\\
 		Data Structures & Calculus I, II, III & Scientific Data Analysis \\
 	\end{tabularx}
 \end{center}
