@@ -1,5 +1,5 @@
-make:
+pdf:
 	pdflatex resume.tex -o resume.pdf
 
-make-rmd:
+pdf-rmd:
 	pandoc resume.rmd -t latex -o resume.pdf
