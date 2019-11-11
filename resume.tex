@@ -7,21 +7,21 @@
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
-\else % if luatex or xelatex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
-\fi
+%\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+ % \usepackage[T1]{fontenc}
+  %\usepackage[utf8]{inputenc}
+  %\usepackage{textcomp} % provides euro and other symbols
+%\else % if luatex or xelatex
+ % \usepackage{unicode-math}
+  %\defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+%\fi
 % use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+%\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
+%\IfFileExists{microtype.sty}{%
+%\usepackage[]{microtype}
+%\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+%}{}
 \IfFileExists{parskip.sty}{%
 \usepackage{parskip}
 }{% else
@@ -69,32 +69,29 @@
 \hypertarget{john-zlotek}{%
 \section{John Zlotek}\label{john-zlotek}}
 
+\vspace{-5mm}
+
 \begin{center}
-    \begin{tabularx}{\textwidth}{X X}
-        \textcolor{Blue}{\faHome}: 4486 June Meadow Dr, Doylestown, PA 18902 \hfill&\hfill  \textcolor{Blue}{\faEnvelope}:  \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu } \\
-        \textcolor{Blue}{\faPhone}:  215-527-0305 \hfill&\hfill \textcolor{Blue}{\faGithub}:  \href{https://www.github.com/jzlotek}{github.com/jzlotek} \\
-    \end{tabularx}
+    \begin{tabular}{*{3}{c}}
+      \textcolor{Blue}{\faEnvelope}: \href{mailto:jmz46@drexel.edu}{jmz46@drexel.edu}
+      & \textcolor{Blue}{\faPhone}: 215-527-0305
+      & \textcolor{Blue}{\faGithub}: \href{https://www.github.com/jzlotek}{github.com/jzlotek}\\
+    \end{tabular}
 \end{center}
 
 \begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+\vspace{-5mm}
 
 \hypertarget{education}{%
 \paragraph{Education}\label{education}}
 
 \begin{tabularx}{\textwidth}{l X}
-    Drexel University                    & \hfill Philadelphia, PA\\
-    Bachelor and Master of Science in Computer Science   & \hfill Anticipated Graduation: June 2021\\
+    Drexel University & \hfill Philadelphia, PA\\
+    Bachelor and Master of Science in Computer Science & \hfill Anticipated Graduation: June 2021\\
     Minor in Mathematics & \hfill GPA: 3.81\\
 \end{tabularx}
+\vspace{-5mm}
 
-\hypertarget{honors-and-awards}{%
-\paragraph{Honors and Awards}\label{honors-and-awards}}
-
-\begin{tabularx}{\textwidth}{l | l X}
-    2016-present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia, PA\\
-    2016         & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown, PA\\
-    2014         & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown, PA\\
-\end{tabularx}
 
 \hypertarget{technical-skills}{%
 \paragraph{Technical Skills}\label{technical-skills}}
@@ -102,95 +99,144 @@
 \begin{tabular}{l | l}
     Languages & Python, Bash, JavaScript, HTML, CSS (Sass/Scss), Java, C, C++, Markdown, \LaTeX\\
     Operating Systems     & Windows, Linux (Arch and Ubuntu), macOS\\
-    Tools             & Git, Jira, Gulp, Maven, MongoDB, Contentful\\
-    Frameworks        & express, Vue.js, OpenCV, Keras, Spring, Jersey\\
-    Software          & Visual Studio Code, JetBrains Suite, Microsoft Office
+    Tools             & Git, Jira, npm, Maven, MongoDB, Contentful\\
+    Frameworks        & Numpy, Flask, SciPy, express, Vue.js, OpenCV, Keras\\
+    Software          & Visual Studio Code, JetBrains Suite, Microsoft Office, Docker\\
+    Concepts & Computer Vision, Machine Learning\\
 \end{tabular}
+\vspace{-3mm}	
 
-\hypertarget{related-experience}{%
-\paragraph{Related Experience}\label{related-experience}}
+
+\hypertarget{experience}{%
+\paragraph{Experience}\label{experience}}
 
 \begin{tabularx}{\textwidth}{l X}
     \textbf{URBN} & \hfill Philadelphia, PA\\
-    Software Engineering Co-op        & \hfill September 2018 to March 2019
+    Software Engineer        & \hfill September 2018 to March 2019
 \end{tabularx}
 
-\begin{list}{\quad}{}
-    \item Develop user facing store interface and React Redux components for URBN branded websites
-    \item Update browsing components on all user facing websites based on designers' requests
-    \item Assisted with development of PWA based brand site with Vue.js, Vuex, and express
-\end{list}
+\begin{itemize}
+	\setlength\itemsep{-0.75em}
+    \item Developed user facing store interface and React Redux components for URBN branded websites
+    \item Updated browsing component UX on all user facing websites based on designers' and users' requests
+    \item Developed browsing components on new PWA brand sites built with Vue.js, Vuex, and express in order to increase overall site responsiveness and decrease load times on mobile
+    \item Optimized PWA searching network calls by using caching and monitoring user input to halt new network calls
+\end{itemize}
 
 \begin{tabularx}{\textwidth}{l X}
     \textbf{Penn Mutual Life Insurance} & \hfill Horsham, PA\\
-    Software Developer Co-op        & \hfill September 2017 to March 2018
+    Software Developer          & \hfill September 2017 to March 2018
 \end{tabularx}
 
-\begin{list}{\quad}{}
-    \item Developed and maintained REST API to integrate databases with other in-house services and endpoints
-    \item Created machine learning application to parse information from hand written documents
-\end{list}
+\begin{itemize}
+	\setlength\itemsep{-0.75em}
+    \item Developed and maintained RESTful API to integrate databases with other in-house services and endpoints
+    \item Managed customers' data on MongoDB instances
+    \item Created machine learning and computer vision application to parse information from hand written documents
+\end{itemize}
+
+\begin{tabularx}{\textwidth}{l X}
+	\textbf{Drexel University} & \hfill Philadelphia, PA\\
+	Teaching Assistant          & \hfill March 2018 to Present
+\end{tabularx}
+
+\begin{itemize}
+	\setlength\itemsep{-1.75em}
+	\item Serve as teaching assistant for: Computer Programming II, Advanced Programming Techniques, and Systems Programming\\
+	\item Responsible for grading assignments and providing one-on-one tutoring\\
+%	\item Encourage student participation and thinking through meaningful\\
+\end{itemize}
+\vspace{-2mm}
 
 \begin{tabularx}{\textwidth}{l X}
     \textbf{Buckingham Pediatrics} & \hfill Buckingham, PA\\
-    Technology Consultant          & \hfill February 2016 to present
+    Technology Consultant          & \hfill February 2016 to Present
 \end{tabularx}
 
-\begin{list}{\quad}{}
+\begin{itemize}
+	\setlength\itemsep{-0.75em}
     \item Update and manage various forms of technology in the office by installing new drivers and software
     \item Update and maintain company website with accurate information and documents
-\end{list}
+\end{itemize}
 
-\hypertarget{relevant-coursework}{%
-\paragraph{Relevant Coursework}\label{relevant-coursework}}
+\vspace{-3mm}
 
-\begin{center}
-    \begin{tabularx}{\textwidth}{ccc}
-        Advanced Programming Techniques & Introduction to Computer Vision & Linear Algebra\\
-        Systems Programming & Web and Mobile Application Development & Machine Learning\\
-        Data Structures & Introduction to Optimization Theory & Scientific Data Analysis \\
-    \end{tabularx}
-\end{center}
+%\hypertarget{relevant-coursework}{%
+%\paragraph{Relevant Coursework}\label{relevant-coursework}}
 
-\newpage
+%\begin{center}
+%    \begin{tabularx}{\textwidth}{ccc}
+%        Advanced Programming Techniques & Introduction to Computer Vision & Linear Algebra\\
+%        Systems Programming & Web and Mobile Application Development & Machine Learning\\
+%        Data Structures & Introduction to Optimization Theory & Scientific Data Analysis \\
+%    \end{tabularx}
+%\end{center}
+%\vspace{-5mm}
 
-\hypertarget{teaching-assistant}{%
-\paragraph{Teaching Assistant}\label{teaching-assistant}}
+%\hypertarget{teaching-assistant}{%
+%\paragraph{Teaching Assistant}\label{teaching-assistant}}
+%
+%\begin{tabularx}{\textwidth}{r | l X}
+%June to Present & CS 283: \textit{Systems Programming} & \hfill Drexel University, Philadelphia, PA\\
+%           & \textit{Worked under Dr. William Mongan}
+%\end{tabularx}
+%\begin{list}{\quad}
+%    \item Assisted with grading students
+%    \item Covered wide variety of subjects pertaining to programming for systems like IO, concurrency, and network programming
+%\end{list}
+%
+%\begin{tabularx}{\textwidth}{r | l X}
+%April to June 2019 & CS 265: \textit{Advanced Programming Techniques} & \hfill Drexel University, %Philadelphia, PA\\
+%           & \textit{Worked under Prof. Kurt Schmidt}
+%\end{tabularx}
+%\begin{list}{\quad}
+%    \item Assisted with grading students in multiple lab sections
+%    \item Mentored students on Linux fundamentals and a variety of programming languages
+%\end{list}
+%
+%\begin{tabularx}{\textwidth}{r | l X}
+%March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel University, Philadelphia, PA\\
+%           & \textit{Worked under Dr. Matthew Burlick}
+%\end{tabularx}
+%\begin{list}{\quad}
+%    \item Assisted with grading and monitoring students in multiple lab sections
+%    \item Tutored students on basics of programming in Python 3
+%\end{list}
 
-\begin{tabularx}{\textwidth}{r | l X}
-June to Present & CS 283: \textit{Systems Programming} & \hfill Drexel University, Philadelphia, PA\\
-           & \textit{Worked under Dr. William Mongan}
+\hypertarget{projects}{%
+	\paragraph{Projects}\label{projects}}
+
+\begin{tabularx}{\textwidth}{l X}
+	\textbf{Checkers} & \hfill CS 451: Software Engineering\\
+	Server Side Lead and DevOps        & \hfill June 2019 to September 2019
 \end{tabularx}
-\begin{list}{\quad}
-    \item Assisted with grading students
-    \item Covered wide variety of subjects pertaining to programming for systems like IO, concurrency, and network programming
-\end{list}
 
-\begin{tabularx}{\textwidth}{r | l X}
-April to June 2019 & CS 265: \textit{Advanced Programming Techniques} & \hfill Drexel University, Philadelphia, PA\\
-           & \textit{Worked under Prof. Kurt Schmidt}
+\begin{itemize}
+	\setlength\itemsep{-0.75em}
+	\item Collaborated with a team using Agile philosophy to design and develop a socketed checkers application over the course of a term
+	\item Utilized tools like Gradle, git, and Codecov to make sure code was well developed and up to our testing and code standards
+	\item Conducted peer reviews on git pull requests to find errors in team members' code
+	\item Developed server game instance logic and client to server data transmission protocol to send move information
+\end{itemize}
+
+
+\hypertarget{honors-and-awards}{%
+\paragraph{Honors and Awards}\label{honors-and-awards}}
+
+\begin{tabularx}{\textwidth}{l | l X}
+	2019 to Present & \textit{Member of Upsilon Pi Epsilon} & \hfill Drexel University, Philadelphia, PA\\
+	2016 to Present &  \textit{Dean's List} & \hfill Drexel University, Philadelphia, PA\\
+	%2016         & \textit{Summa Cum Laude} & \hfill Central Bucks High School East, Doylestown, PA\\
+	2014         & \textit{Eagle Scout} & \hfill Boy Scouts of America, Troop 6, Doylestown, PA\\
 \end{tabularx}
-\begin{list}{\quad}
-    \item Assisted with grading students in multiple lab sections
-    \item Mentored students on Linux fundamentals and a variety of programming languages
-\end{list}
 
-\begin{tabularx}{\textwidth}{r | l X}
-March to June 2018 & CS 172: \textit{Computer Programming II} & \hfill Drexel University, Philadelphia, PA\\
-           & \textit{Worked under Dr. Matthew Burlick}
-\end{tabularx}
-\begin{list}{\quad}
-    \item Assisted with grading and monitoring students in multiple lab sections
-    \item Tutored students on basics of programming in Python 3
-\end{list}
-
-\hypertarget{activities}{%
-\paragraph{Activities}\label{activities}}
-
-\begin{tabularx}{\textwidth}{l | X}
-    2018         & Participant, Philly Codefest \hfill Drexel University, Philadelphia, PA\\
-    2017         & Volunteer, GEAR UP \hfill West Philadelphia High School, Philadelphia, PA\\
-    2016 to 2017 & Pep Band \hfill Drexel University, Philadelphia, PA
-\end{tabularx}
+%\hypertarget{activities}{%
+%\paragraph{Activities}\label{activities}}
+%
+%\begin{tabularx}{\textwidth}{l | X}
+%    2018         & Participant, Philly Codefest \hfill Drexel University, Philadelphia, PA\\
+%    2017         & Volunteer, GEAR UP \hfill West Philadelphia High School, Philadelphia, PA\\
+%    2016 to 2017 & Pep Band \hfill Drexel University, Philadelphia, PA
+%\end{tabularx}
 
 \end{document}

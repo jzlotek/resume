@@ -1,8 +1,8 @@
 ### Requires:
-* LaTeX
-* pdflatex
-* pandoc
-* r markdown
+
+- LaTeX
+- pdflatex
 
 ### Make
-* ```make```
+
+- `make`
